@@ -1,8 +1,8 @@
     <?php
 
-    $client_id = '	6379963'; // ID приложения
-    $client_secret = 'jW97RHOk4MQcFh14f2mC'; // Защищённый ключ
-    $redirect_uri = 'http://localhost/laterpost'; // Адрес сайта
+    $client_id = '6420848'; // ID приложения
+    $client_secret = 'e5yGpPz6JJB2SYWcS6Kq'; // Защищённый ключ
+    $redirect_uri = 'https://tryinthatsht.herokuapp.com/'; // Адрес сайта
 
     $url = 'http://oauth.vk.com/authorize';
 
