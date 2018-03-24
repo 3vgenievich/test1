@@ -2,7 +2,7 @@
 
     $client_id = '6420848'; // ID приложения
     $client_secret = 'e5yGpPz6JJB2SYWcS6Kq'; // Защищённый ключ
-    $redirect_uri = 'https://tryinthatsht.herokuapp.com/main.php'; // Адрес сайта
+    $redirect_uri = 'https://tryinthatsht.herokuapp.com/oauth/vkOauth.php'; // Адрес сайта
 
     $url = 'http://oauth.vk.com/authorize';
 
