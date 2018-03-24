@@ -10,7 +10,7 @@
 	<form action="./oauth/twitterOauth.php"><button>войти через Твиттер</button></form>
 	
  <form action="textarea1.php" method="post">
-    <p><b>Введите ваш отзыв:</b></p>
+    <p><b>Текст поста:</b></p>
     <p><textarea rows="10" cols="45" name="text"></textarea></p>
     <p><input type="submit" value="Отправить"></p>
   </form>
