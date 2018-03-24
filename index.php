@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
     <title>Autopost8r</title>
+	<script src="https://vk.com/js/api/openapi.js?152" type="text/javascript"></script>
 </head>
 <body>
 	<form action="./oauth/vkOauth.php" ><button>войти Через ВК</button></form><br>
