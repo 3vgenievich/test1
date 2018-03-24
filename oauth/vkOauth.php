@@ -17,11 +17,12 @@
 
 if (isset($_GET['code'])) {
     $result = false;
+	
     $params = array(
         'client_id' => $client_id,
         'client_secret' => $client_secret,
+	'redirect_uri' => $redirect_uri,
         'code' => $_GET['code'],
-        'redirect_uri' => $redirect_uri,
 	'v' => '5.73'
     );
 
