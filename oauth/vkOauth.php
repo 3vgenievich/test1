@@ -9,7 +9,8 @@
     $params = array(
         'client_id'     => $client_id,
         'redirect_uri'  => $redirect_uri,
-        'response_type' => 'code'
+        'response_type' => 'code',
+	'v' => '5.73'
     );
 
     echo $link = '<p><a href="' . $url . '?' . urldecode(http_build_query($params)) . '">Аутентификация через ВКонтакте</a></p>';
@@ -20,7 +21,8 @@ if (isset($_GET['code'])) {
         'client_id' => $client_id,
         'client_secret' => $client_secret,
         'code' => $_GET['code'],
-        'redirect_uri' => $redirect_uri
+        'redirect_uri' => $redirect_uri,
+	'v' => '5.73'
     );
 
     $token = json_decode(file_get_contents('https://oauth.vk.com/access_token' . '?' . urldecode(http_build_query($params))), true);
