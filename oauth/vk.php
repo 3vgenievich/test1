@@ -10,9 +10,9 @@ class Utils {
 
 class OAuthVK {
 
-    const APP_ID = 6379963; //ID приложения
-    const APP_SECRET = 'jW97RHOk4MQcFh14f2mC'; //Защищенный ключ
-    const URL_CALLBACK = 'http://localhost/laterpost/oauth/vk.php'; //URL сайта до этого скрипта-обработчика 
+    const APP_ID = 6420848; //ID приложения
+    const APP_SECRET = 'e5yGpPz6JJB2SYWcS6Kq'; //Защищенный ключ
+    const URL_CALLBACK = 'https://tryinthatsht.herokuapp.com/oauth/vk.php'; //URL сайта до этого скрипта-обработчика 
     const URL_ACCESS_TOKEN = 'https://oauth.vk.com/access_token';
     const URL_AUTHORIZE = 'https://oauth.vk.com/authorize';
     const URL_GET_PROFILES = 'https://api.vk.com/method/getProfiles';
