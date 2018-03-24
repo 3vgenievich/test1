@@ -6,9 +6,7 @@
     <title>Autopost8r</title>
 </head>
 <body>
-	<form action="./oauth/vk.php" ><button>войти Через ВК</button></form><br>
 	<form action="./oauth/twitterOauth.php"><button>войти через Твиттер</button></form>
-	<form action="./oauth/vkOauth.php" ><button>войти Через ВК</button></form><br>
 	<form action="./oauth/vkoauth3.php" ><button>войти Через ВК</button></form><br>
  <form action="textarea1.php" method="post">
     <p><b>Текст поста:</b></p>
