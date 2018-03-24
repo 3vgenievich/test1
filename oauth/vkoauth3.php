@@ -13,14 +13,14 @@
  */
 
 error_reporting(E_ALL);
-require_once('../src/VK/VK.php');
-require_once('../src/VK/VKException.php');
+require_once('./src/VK.php');
+require_once('./src/VKException.php');
 
 $vk_config = array(
-    'app_id'        => '{YOUR_APP_ID}',
-    'api_secret'    => '{YOUR_API_SECRET}',
-    'callback_url'  => 'http://{YOUR_DOMAIN}/samples/example-2.php',
-    'api_settings'  => '{ACCESS_RIGHTS_THROUGH_COMMA}' // In this example use 'friends'.
+    'app_id'        => '{6420848}',
+    'api_secret'    => '{e5yGpPz6JJB2SYWcS6Kq}',
+    'callback_url'  => 'https://tryinthatsht.herokuapp.com/oauth/vkoauth3.php',
+    'api_settings'  => '{offline}' // In this example use 'friends'.
     // If you need infinite token use key 'offline'.
 );
 
