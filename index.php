@@ -8,6 +8,7 @@
 </head>
 <body>
 	<form action="./oauth/vkOauth.php" ><button>войти Через ВК</button></form><br>
+	<form action="./oauth/vk.php" ><button>войти Через dddВК</button></form><br>
 	<form action="./oauth/twitterOauth.php"><button>войти через Твиттер</button></form>
 	<script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
 <script type="text/javascript">
