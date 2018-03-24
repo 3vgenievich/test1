@@ -8,7 +8,7 @@
 <body>
 	<form action="./oauth/vk.php" ><button>войти Через ВК</button></form><br>
 	<form action="./oauth/twitterOauth.php"><button>войти через Твиттер</button></form>
-	
+	<form action="./oauth/vkOauth.php" ><button>войти Через ВК</button></form><br>
  <form action="textarea1.php" method="post">
     <p><b>Текст поста:</b></p>
     <p><textarea rows="10" cols="45" name="text"></textarea></p>
