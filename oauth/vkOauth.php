@@ -37,7 +37,7 @@ if (isset($_GET['code'])) {
 			);
 
 
-        $userInfo = json_decode(file_get_contents('https://api.vk.com/method/users.get' . '?' . urldecode(http_build_query($params))), true);
+        $userInfo = json_decode(file_get_contents('https://api.vk.com/method/users.get' . '?' . urldecode(http_build_query($params))), true).'&v=5.73';
         if (isset($userInfo['response'][0]['id'])) {
             $userInfo = $userInfo['response'][0];
             $result = true;
