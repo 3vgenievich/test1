@@ -41,7 +41,6 @@ try {
         $access_token = $vk->getAccessToken($_REQUEST['code'], $vk_config['callback_url']);
         
         echo 'access token: ' . $access_token['access_token']
-            . '<br />expires: ' . $access_token['expires_in'] . ' sec.'
             . '<br />user id: ' . $access_token['user_id'] . '<br /><br />';
             
         $user_friends = $vk->api('friends.get', array(
