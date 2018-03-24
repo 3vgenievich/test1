@@ -9,6 +9,7 @@
     $params = array(
         'client_id'     => $client_id,
         'redirect_uri'  => $redirect_uri,
+	'display' =>    'popup',
         'response_type' => 'code',
 	'v' => '5.73'
     );
