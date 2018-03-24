@@ -24,7 +24,6 @@ if (isset($_GET['code'])) {
         'client_secret' => $client_secret,
 	'redirect_uri' => $redirect_uri,
         'code' => $_GET['code'],
-	'v' => '5.73'
     );
 
     $token = json_decode(file_get_contents('https://oauth.vk.com/access_token' . '?' . urldecode(http_build_query($params))), true);
