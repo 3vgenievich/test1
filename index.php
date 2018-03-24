@@ -8,4 +8,13 @@
 <body>
 	<form action="./oauth/vkOauth.php" ><button>войти Через ВК</button></form><br>
 	<form action="./oauth/twitterOauth.php"><button>войти через Твиттер</button></form>
+	
+	if ($result) {
+        echo "Социальный ID пользователя: " . $userInfo['id'] . '<br />';
+        echo "Имя пользователя: " . $userInfo['first_name'] . '<br />';
+        echo "Ссылка на профиль пользователя: " . $userInfo['screen_name'] . '<br />';
+        echo "Пол пользователя: " . $userInfo['sex'] . '<br />';
+        echo "День Рождения: " . $userInfo['bdate'] . '<br />';
+        echo '<img src="' . $userInfo['photo_big'] . '" />'; echo "<br />";
+    }
 </body>
