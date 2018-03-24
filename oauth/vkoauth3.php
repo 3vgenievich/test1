@@ -17,10 +17,10 @@ require_once('./src/VK.php');
 require_once('./src/VKException.php');
 
 $vk_config = array(
-    'app_id'        => '{6420848}',
-    'api_secret'    => '{e5yGpPz6JJB2SYWcS6Kq}',
+    'app_id'        => '6420848',
+    'api_secret'    => 'e5yGpPz6JJB2SYWcS6Kq',
     'callback_url'  => 'https://tryinthatsht.herokuapp.com/oauth/vkoauth3.php',
-    'api_settings'  => '{offline}' // In this example use 'friends'.
+    'api_settings'  => 'offline' // In this example use 'friends'.
     // If you need infinite token use key 'offline'.
 );
 
