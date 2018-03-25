@@ -7,7 +7,3 @@ define("DB_PASS", "2bb4bc40");
 define("DB_NAME", "heroku_aa2f041f7543871");
 
 ?>
-bcb2cdccd6c6a5
-2bb4bc40
-eu-cdbr-west-02.cleardb.net
-heroku_aa2f041f7543871
